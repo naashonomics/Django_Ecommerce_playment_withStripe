@@ -23,6 +23,8 @@ Password (again):<password>
 Superuser created successfully.
 #db.sqllite3 is automatically created in the project dir
 
-
+#in a terminal type
+python manage.py runserver
+#open a brower and open the ip provide in the output to confirm Django is up and running 
 
 
