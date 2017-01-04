@@ -14,3 +14,15 @@ django-admin.py startproject tryTen
 #sync the database
 python manage.py migrate
 
+#Create super user
+(tryTen) Avinashs-MacBook-Pro:tryTen avinashanantharamu$ python manage.py createsuperuser
+Username (leave blank to use 'avinashanantharamu'):<username>
+Email address: <email>
+Password: <password>
+Password (again):<password>
+Superuser created successfully.
+#db.sqllite3 is automatically created in the project dir
+
+
+
+
